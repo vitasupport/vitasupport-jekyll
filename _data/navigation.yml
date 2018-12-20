@@ -1,0 +1,8 @@
+- name: Personal Training
+  link: /
+- name: Circuit Training
+  link: /circuit.html
+- name: Running
+  link: /running.html
+- name: Contact
+  link: /contact.html

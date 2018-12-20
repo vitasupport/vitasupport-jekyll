@@ -1,0 +1,59 @@
+<div id="modal1" class="modal blue-grey-text text-darken-3">
+  <div class="modal-content">
+    <div class="row">
+      <form class="col s12 blue-grey-text text-darken-3" id="gform" method="post" action="https://script.google.com/macros/s/AKfycbw63vIT_g6jutQl6hVZRfdoJ2DotlYPPqE-JXqA8KScEyYqX4oW/exec">
+        <div class="row">
+          <div class="input-field col m4 s12">
+            <input id="first_name" name="first_name" type="text" class="validate">
+            <label for="first_name">Voornaam</label>
+          </div>
+          <div class="input-field col m4 s12">
+            <input id="last_name" name="last_name" type="text" class="validate">
+            <label for="last_name">Achternaam</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col m4 s12">
+            <input id="email" name="email" type="email" class="validate">
+            <label for="email">Email</label>
+            <span id="email-invalid" style="display:none">Geen valide email!</span>
+          </div>
+          <div class="input-field col m2 s6">
+            <select id="gender" name="gender">
+              <option value="" disabled selected>Geslacht</option>
+              <option value="M">Man</option>
+              <option value="V">Vrouw</option>
+            </select>
+          </div>
+          <div class="input-field col m2 s6">
+            <input id="age" name="age" type="text" class="validate">
+            <label for="age">Leeftijd</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col m8 s12">
+            <textarea id="message" name="message" class="materialize-textarea"></textarea>
+            <label for="message">Doelstelling</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col m2 s12">
+            <button class="btn waves-effect waves-light blue-grey darken-3">Verstuur!</button>
+          </div>
+          &nbsp;
+          <div class="col offset-m4 m2 s12">
+            <button type="reset" class="btn waves-effect waves-light blue-grey darken-3">Reset!</button>
+          </div>
+        </div>
+      </form>
+      <!-- Customise the Thankyou Message People See when they submit the form: -->
+      <div style="display:none;" id="thankyou_message">
+        <h5><em>Bedankt voor je reactie!</em> Ik neem binnen 48 uur contact met je op!</p>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close btn-flat">Sluit</a>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</div>
