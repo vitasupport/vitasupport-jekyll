@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: product
 title: Circuit Training
 subtitle: “Denk je dat je niet fit genoeg bent om mee te doen? Denk nog eens na!"
+cta: false
 image: /assets/images/background4.jpg
 ---
 
