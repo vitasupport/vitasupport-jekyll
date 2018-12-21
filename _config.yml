@@ -1,5 +1,6 @@
 name: VitaSupport
 title: VitaSupport | Personal Training, Circuittraining &amp; Running | Alkmaar
+baseurl: vitasupport-jekyll/
 
 collections_dir: my_collections
 collections:
