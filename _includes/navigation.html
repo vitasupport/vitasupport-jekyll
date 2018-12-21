@@ -6,7 +6,7 @@
         <ul class="left hide-on-med-and-down">
         {% for item in site.data.navigation %}
             <li>
-                <a href="{{ item.link }}">
+                <a href="{{ item.link | relative_url }}">
                 {{ item.name }}
                 </a>
             </li>
@@ -18,7 +18,7 @@
 <ul id="nav-mobile" class="sidenav">
 {% for item in site.data.navigation %}
     <li>
-        <a class="sidenav-close" href="{{ item.link }}">
+        <a class="sidenav-close" href="{{ item.link | relative_url }}">
             {{ item.name }}
         </a>
     </li>
