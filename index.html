@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48697210-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-48697210-1');
+  </script>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow, archive">
+  <meta name="googlebot" content="index, follow, archive">
+  <meta name="description" content="Personal Trainer Winfred van Groningen maakt je fitter en sterker door personal training, circuit training, running en gezond te laten leven">
+  <meta name="keywords" content="personal training, personal trainer, circuittraining, running, small group training, bewustwording, workout, vita support, abonnement">
+
+  <title>VitaSupport | Personal Training, Circuittraining &amp; Running | Alkmaar</title>
+
+  <!-- CSS  -->
+
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="navbar-fixed">
+    <nav class="white">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#!" class="brand-logo right">VitaSupport</a>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+        <ul class="left hide-on-med-and-down">
+        
+            <li>
+                <a href="/">
+                Personal Training
+                </a>
+            </li>
+        
+            <li>
+                <a href="/circuit.html">
+                Circuit Training
+                </a>
+            </li>
+        
+            <li>
+                <a href="/running.html">
+                Running
+                </a>
+            </li>
+        
+            <li>
+                <a href="/contact.html">
+                Contact
+                </a>
+            </li>
+        
+        </ul>
+    </nav>
+</div>
+
+<ul id="nav-mobile" class="sidenav">
+
+    <li>
+        <a class="sidenav-close" href="/">
+            Personal Training
+        </a>
+    </li>
+
+    <li>
+        <a class="sidenav-close" href="/circuit.html">
+            Circuit Training
+        </a>
+    </li>
+
+    <li>
+        <a class="sidenav-close" href="/running.html">
+            Running
+        </a>
+    </li>
+
+    <li>
+        <a class="sidenav-close" href="/contact.html">
+            Contact
+        </a>
+    </li>
+
+</ul>
+
+ </header>
+
+  <div id="index-banner" class="parallax-container">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <br><br>
+      <h1 class="header center blue-grey-text text-darken-3">Personal Training</h1>
+      <div class="row center">
+        <h5 class="header col s12 black-text">The time is now so...</h5>
+      </div>
+      
+      <div class="row center">
+        <!-- Modal Trigger -->
+        <button data-target="modal1" class="btn btn-large waves-effect waves-light blue-grey darken-3 modal-trigger"
+          onclick="$('#gform')[0].reset();">Get Started!</button>
+      </div>
+      <br><br>
+      
+    </div>
+  </div>
+  <div class="parallax"><img src="/assets/images/background5.jpg" alt="Unsplashed background img 1"></div>
+</div>
+
+<div id="modal1" class="modal blue-grey-text text-darken-3">
+  <div class="modal-content">
+    <div class="row">
+      <form class="col s12 blue-grey-text text-darken-3" id="gform" method="post" action="https://script.google.com/macros/s/AKfycbw63vIT_g6jutQl6hVZRfdoJ2DotlYPPqE-JXqA8KScEyYqX4oW/exec">
+        <div class="row">
+          <div class="input-field col m4 s12">
+            <input id="first_name" name="first_name" type="text" class="validate">
+            <label for="first_name">Voornaam</label>
+          </div>
+          <div class="input-field col m4 s12">
+            <input id="last_name" name="last_name" type="text" class="validate">
+            <label for="last_name">Achternaam</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col m4 s12">
+            <input id="email" name="email" type="email" class="validate">
+            <label for="email">Email</label>
+            <span id="email-invalid" style="display:none">Geen valide email!</span>
+          </div>
+          <div class="input-field col m2 s6">
+            <select id="gender" name="gender">
+              <option value="" disabled selected>Geslacht</option>
+              <option value="M">Man</option>
+              <option value="V">Vrouw</option>
+            </select>
+          </div>
+          <div class="input-field col m2 s6">
+            <input id="age" name="age" type="text" class="validate">
+            <label for="age">Leeftijd</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col m8 s12">
+            <textarea id="message" name="message" class="materialize-textarea"></textarea>
+            <label for="message">Doelstelling</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col m2 s12">
+            <button class="btn waves-effect waves-light blue-grey darken-3">Verstuur!</button>
+          </div>
+          &nbsp;
+          <div class="col offset-m4 m2 s12">
+            <button type="reset" class="btn waves-effect waves-light blue-grey darken-3">Reset!</button>
+          </div>
+        </div>
+      </form>
+      <!-- Customise the Thankyou Message People See when they submit the form: -->
+      <div style="display:none;" id="thankyou_message">
+        <h5><em>Bedankt voor je reactie!</em> Ik neem binnen 48 uur contact met je op!</p>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close btn-flat">Sluit</a>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container">
+    <div class="section">
+        <div class="row">
+    
+    <div class="col s12 m4">
+        <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Sneller naar je doel!!!!</h5>
+            <p class="light"><p>Afvallen, fitter en sterker worden of beter worden in de sport die je het liefst beoefent? Een personal trainer begeleidt, motiveert en stimuleert je om jouw (sportieve) doelen te behalen.</p>
+</p>
+        </div>
+    </div>
+    
+    <div class="col s12 m4">
+        <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">mood</i></h2>
+            <h5 class="center">Meer dan sporten...!</h5>
+            <p class="light"><p>Als beweegspecialist leer ik jou je lichaam optimaal te gebruiken. Vooral wanneer je ouder word zul je merken dat veel dingen niet meer als vanzelfsprekend kunt beschouwen en dat sommige vrij alledaagse bewegingen en inspanningen al een enorme uitdaging zijn. Bewustwording is hier het sleutelwoord. Deze bewustwording is ook noodzakelijk wanneer je terug komt van een blessure of als preventie om niet in blessureleed terug te vallen.</p>
+</p>
+        </div>
+    </div>
+    
+    <div class="col s12 m4">
+        <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Niet alleen???!</h5>
+            <p class="light"><p>Uiteraard zijn de personal trainingen ook mogelijk in groepsverband, small group training (maximaal 4 personen, inclusief voedingsbegeleiding). Leuk om dit met een groepje vrienden te doen en voordeliger. Informeer snel naar de mogelijkheden!</p>
+</p>
+        </div>
+    </div>
+    
+</div>
+        <div class="row">
+    
+    <div class="col s12 m4">
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">“Total transformer" (36 sessies)</span>
+              <p>3x per week</p>
+              <p>€540,00 per maand</p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.personaltrainerapp.nl/p/7604" target="_blank">Aanmelden!</a>
+            </div>
+          </div>
+    </div>
+    
+    <div class="col s12 m4">
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">“Achieving succes" (24 sessies)</span>
+              <p>2x per week</p>
+              <p>€360,00 per maand</p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.personaltrainerapp.nl/p/4837" target="_blank">Aanmelden!</a>
+            </div>
+          </div>
+    </div>
+    
+    <div class="col s12 m4">
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">“Get fit stay fit" (12 sessies)</span>
+              <p>1x per week</p>
+              <p>€180,00 per maand</p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.personaltrainerapp.nl/p/3446" target="_blank">Aanmelden!</a>
+            </div>
+          </div>
+    </div>
+    
+</div>
+    </div>
+</div>
+
+
+  <footer class="page-footer blue-grey darken-3">
+  <div class="footer-copyright">
+    <div class="container">
+      <div class="left">
+        <a class="blue-grey-text text-lighten-3" href=/assets/files/algemene_voorwaarden_vitasupport.pdf target="_blank">Algemene
+          voorwaarden</a>&nbsp;&nbsp;
+        <a class="blue-grey-text text-lighten-3" href=/assets/files/privacy_verklaring.pdf target="_blank">Privacy verklaring</a>
+      </div>
+      <div class="right">&nbsp;</div>
+      <div class="right">
+        &copy; 2018 Made with joy and <a class="blue-grey-text text-lighten-3" href="http://materializecss.com" target="_blank">MaterializeCSS</a>
+        by <a class="blue-grey-text text-lighten-3" href="https://www.stefanvangroningen.com" target="_blank">Stefan
+          van Groningen</a>
+      </div>
+    </div>
+  </div>
+  </div>
+</footer>
+
+  <!--  Scripts-->
+  <noscript id="deferred-styles">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.1/css/materialize.min.css" type="text/css"
+      rel="stylesheet" media="screen,projection" />
+    <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  </noscript>
+  <script>
+    var loadDeferredStyles = function () {
+      var addStylesNode = document.getElementById("deferred-styles");
+      var replacement = document.createElement("div");
+      replacement.innerHTML = addStylesNode.textContent;
+      document.body.appendChild(replacement)
+      addStylesNode.parentElement.removeChild(addStylesNode);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+      webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(function () {
+      window.setTimeout(loadDeferredStyles, 0);
+    });
+    else window.addEventListener('load', loadDeferredStyles);
+  </script>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.1/js/materialize.min.js"></script>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.modal');
+      var instances = M.Modal.init(elems);
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems);
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+    });
+  </script>
+
+  
+  <script data-cfasync="false" type="text/javascript" src="/assets/js/form-submission-handler.js"></script>
+  
+
+</body>
+
+</html>
