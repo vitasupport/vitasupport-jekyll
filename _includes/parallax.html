@@ -6,15 +6,14 @@
       <div class="row center">
         <h5 class="header col s12 black-text">{{ page.subtitle }}</h5>
       </div>
+      {% if page.url == '/' %}
       <div class="row center">
-
         <!-- Modal Trigger -->
         <button data-target="modal1" class="btn btn-large waves-effect waves-light blue-grey darken-3 modal-trigger"
           onclick="$('#gform')[0].reset();">Get Started!</button>
-
       </div>
       <br><br>
-
+      {% endif %}
     </div>
   </div>
   <div class="parallax"><img src="{{ page.image }}" alt="Unsplashed background img 1"></div>

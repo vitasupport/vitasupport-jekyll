@@ -75,7 +75,10 @@
       var instances = M.Sidenav.init(elems);
     });
   </script>
+
+  {% if page.url == '/' %}
   <script data-cfasync="false" type="text/javascript" src="/assets/js/form-submission-handler.js"></script>
+  {% endif %}
 
 </body>
 
