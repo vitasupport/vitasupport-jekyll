@@ -39,7 +39,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.1/css/materialize.min.css" type="text/css"
       rel="stylesheet" media="screen,projection" />
-    <link href="/assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href={{ "/assets/css/style.css" | relative_url }} type="text/css" rel="stylesheet" media="screen,projection" />
   </noscript>
   <script>
     var loadDeferredStyles = function () {
@@ -77,7 +77,7 @@
   </script>
 
   {% if page.url == '/' %}
-  <script data-cfasync="false" type="text/javascript" src="/assets/js/form-submission-handler.js"></script>
+  <script data-cfasync="false" type="text/javascript" src={{ "/assets/js/form-submission-handler.js" | relative_url }}></script>
   {% endif %}
 
 </body>
