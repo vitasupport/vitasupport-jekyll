@@ -57,3 +57,8 @@ footer.page-footer {
 .row.pad-top {
   padding-top: 40px;
 }
+
+html {
+  visibility: visible;
+  opacity: 1;
+}
