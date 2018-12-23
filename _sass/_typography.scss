@@ -21,6 +21,13 @@ html{
   font-family: $font-stack;
   font-weight: normal;
   color: $off-black;
+
+  @font-face {
+    font-family: 'Roboto';
+    font-display: auto;
+    src: local('Roboto');
+  }
+  
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
