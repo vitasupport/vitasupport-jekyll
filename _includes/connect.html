@@ -1,0 +1,10 @@
+<h5>Connect</h5>
+<ul>
+    {% for item in site.data.connect %}
+    <li class="left">
+        <a href="{{ item.link }}">
+            <i class="svg-icon {{ item.name }}"></i>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
