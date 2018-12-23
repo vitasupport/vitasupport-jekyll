@@ -6,3 +6,6 @@ collections_dir: my_collections
 collections:
   - topics
   - tariffs
+
+sass:
+  style: compressed
