@@ -4,6 +4,7 @@ title: Running
 subtitle:
 cta: true
 image: /assets/images/background6.webp
+permalink: /running/
 ---
 
 Met een goede looptechniek kan je de kans op blessures verminderen. Je (loop)prestaties en het plezier in hardlopen zullen verbeteren. Bij VitaSupport leer je niet alleen de juiste techniek aan, maar werk je tevens aan je kracht en core stability.
