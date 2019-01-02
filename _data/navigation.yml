@@ -1,8 +1,8 @@
 - name: Personal Training
-  link: /
+  url: /
 - name: Circuit Training
-  link: /circuit-training.html
+  url: /circuit-training.html
 - name: Running
-  link: /running.html
+  url: /running.html
 - name: Contact
-  link: /contact.html
+  url: /contact.html
