@@ -4,5 +4,3 @@ hide_body: false
 is_partial: false
 fields:
 - type: field_group_list
-pages:
-- _tariffs/test.md

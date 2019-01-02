@@ -11,14 +11,14 @@ sections:
   label: Posts
   create: all
 - type: directory
-  path: mycollections/_tariffs
+  path: my_collections/_tariffs
   label: Tariffs
   create: documents
   match: "**/*"
 - type: directory
-  path: _topics
+  path: my_collections/_topics
   label: Topics
-  create: all
+  create: documents
   match: "**/*"
 upload_dir: assets/images
 public_path: "/assets/images"
