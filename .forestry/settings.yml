@@ -11,9 +11,9 @@ sections:
   label: Posts
   create: all
 - type: directory
-  path: _tariffs
+  path: mycollections/_tariffs
   label: Tariffs
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
   path: _topics
