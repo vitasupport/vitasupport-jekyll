@@ -1,11 +1,53 @@
 name: VitaSupport
 title: VitaSupport | Personal Training, Circuittraining &amp; Running | Alkmaar
-baseurl: /vitasupport-jekyll
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal Trainer Winfred van Groningen maakt je fitter en sterker door personal training, circuit training, running en gezond te laten leven.
+baseurl: ""
+url: "https://www.amenra.ml" 
 
 collections_dir: my_collections
+
 collections:
   - topics
   - tariffs
 
+# Enable section IDs in frontmatter, useful for identifying current page
+# (used as a hook for styling etc)
+section: true
+
+# set to 'true' to enable Netlify CMS (/admin) in production builds
+netlifycms: true
+
+# Compress CSS
 sass:
   style: compressed
+  sass_dir: _sass
+
+show_excerpts: true # set to true to show excerpts on the homepage
+
+# Compress HTML (in liquid via layouts/compress.html)
+compress_html:
+  clippings: all
+
+# Build settings
+markdown: kramdown
+
+# Kramdown options
+kramdown:
+  # Prevent IDs from being added to h1-h6 tags
+  auto_ids: false
+
+# Exclude from processing.
+# The following items will not be processed.
+exclude:
+  - README.md
+  - LICENSE.txt
+  - netlify.toml
+  - feed.xml
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
