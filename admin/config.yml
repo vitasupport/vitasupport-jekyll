@@ -24,3 +24,17 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
+
+  # Collections
+  - name: "tariff"
+    label: "Tariff"
+    folder: "my_collections/tariffs"
+    sort: "title:asc"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Number of sessions", name: "number_sessions", widget: "number", valueType: int}
+      - {label: "Frequency", name: "frequency", widget: "number", valueType: int}
+      - {label: "Price", name: "price", widget: "number", valueType: int}
+      - {label: "URL ID", name: "url_id", widget: "number", valueType: int}
