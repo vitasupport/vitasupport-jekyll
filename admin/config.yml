@@ -28,7 +28,7 @@ collections: # A list of collections the CMS should be able to edit
   # Collections
   - name: "tariff"
     label: "Tariff"
-    folder: "my_collections/tariffs"
+    folder: "my_collections/_tariffs"
     sort: "title:asc"
     create: false
     slug: "{{slug}}"
