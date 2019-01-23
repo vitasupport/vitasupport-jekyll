@@ -38,3 +38,14 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Frequency", name: "frequency", widget: "number", valueType: int}
       - {label: "Price", name: "price", widget: "number", valueType: int}
       - {label: "URL ID", name: "url_id", widget: "number", valueType: int}
+
+  - name: "topic"
+    label: "Topic"
+    folder: "my_collections/_topics"
+    sort: "title:asc"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Icon", name: "icon", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
