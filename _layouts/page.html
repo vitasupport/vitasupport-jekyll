@@ -1,0 +1,12 @@
+---
+layout: parallax
+---
+<div class="container">
+    <div class="section">
+        {% if page.url == '/contact/' %}
+            {% include contact.html %}
+        {% else %}
+            {{ content }}
+        {% endif %}
+    </div>
+</div>
