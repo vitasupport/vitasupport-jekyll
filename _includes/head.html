@@ -8,7 +8,11 @@
     <meta name="robots" content="index, follow, archive">
     <meta name="googlebot" content="index, follow, archive">
     <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
-      
+    
+    {% if page.url == '/' %}
+      {% include home-json-ld.html %}
+    {% endif %}
+
     <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
   
     <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
