@@ -6,6 +6,14 @@ nav {
   }
 }
 
+/* top centered text overlay */
+.top-centered {
+  width: 40%;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.5); /* Black background with opacity */
+  border-radius: 15px;
+}
+
 p {
   line-height: 2rem;
 }
@@ -15,23 +23,35 @@ p {
 
   .section {
     width: 100%;
+    top: 40%;
   }
+}
+
+.hcenter {
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 40%;
   }
 
   #index-banner .section {
     top: 10%;
+  }
+
+  .top-centered {
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
+  }
+
+  .top-centered {
+    width: 100%;
   }
 }
 
