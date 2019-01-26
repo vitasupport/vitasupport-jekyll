@@ -1,11 +1,11 @@
 ---
-layout: product
+layout: page
 title: Running
 subtitle:
 description: >-
     Tussen Rotterdam en Alkmaar kun je flink stuk hardlopen. En personal trainer Winfred van Groningen helpt je sneller naar de victorie!
 cta: true
-image: /assets/images/background6.webp
+image: /assets/images/pexels-photo-618612.jpeg
 permalink: /running/
 sitemap:
   lastmod: 2018-12-11
