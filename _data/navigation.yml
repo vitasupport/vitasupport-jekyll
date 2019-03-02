@@ -1,6 +1,6 @@
 - name: Personal Training
   url: /
-- name: Running
-  url: /running
+- name: Hardlopen
+  url: /hardlopen
 - name: Contact
   url: /contact
