@@ -22,7 +22,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "hidden"}
       - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "markdown", required: false}
       - {label: "Call to action", name: "cta", widget: "boolean"}
       - label: "Image"
