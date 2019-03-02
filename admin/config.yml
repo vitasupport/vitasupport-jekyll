@@ -36,7 +36,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "sitemap"
         widget: "object"
         fields: 
-        - {label: "Lastmod", name: "lastmod", widget: "string"}
+        - {label: "Lastmod", name: "lastmod", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown", required: false}
   # Collections
   - name: "tariff"
