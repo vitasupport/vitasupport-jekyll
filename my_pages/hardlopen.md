@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Hardlopen
-subtitle:
+permalink: /hardlopen/
 description: >-
-    Tussen Rotterdam en Alkmaar kun je flink stuk hardlopen. En personal trainer Winfred van Groningen helpt je sneller naar de victorie!
+  Tussen Rotterdam en Alkmaar kun je een flink stuk hardlopen. En personal
+  trainer Winfred van Groningen helpt je sneller naar de victorie!
 cta: true
 image: /assets/images/pexels-photo-618612.jpeg
-permalink: /hardlopen/
 sitemap:
-  lastmod: 2018-12-11
+  lastmod: 2019-03-02T00:00:00.000Z
 ---
 
 Met een goede looptechniek kan je de kans op blessures verminderen. Je (loop)prestaties en het plezier in hardlopen zullen verbeteren. Bij VitaSupport leer je niet alleen de juiste techniek aan, maar werk je tevens aan je kracht en core stability.
