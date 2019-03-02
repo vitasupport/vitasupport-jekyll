@@ -15,7 +15,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Page"
     folder: "my_pages"
     sort: "title:asc"
-    create: false
+    create: true
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
@@ -32,7 +32,11 @@ collections: # A list of collections the CMS should be able to edit
           config:
             multiple: true
       - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Lastmod", name: "lastmod", widget: "string"}
+      - label: "Sitemap"
+        name: "sitemap"
+        widget: "object"
+        fields: 
+        - {label: "Lastmod", name: "lastmod", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", required: false}
   # Collections
   - name: "tariff"
