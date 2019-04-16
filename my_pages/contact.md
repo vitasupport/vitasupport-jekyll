@@ -2,13 +2,14 @@
 layout: page
 title: Contact
 description: >-
-    Ook al kom je uit Amsterdam, neem contact op met personal trainer Winfred van Groningen om je sneller en doeltreffender naar je victorie te brengen!
+  Ook al kom je uit Amsterdam, neem contact op met personal trainer Winfred van Groningen om je sneller en doeltreffender naar je victorie te brengen!
 cta: false
-image: /assets/images/pexels-photo-1552252.jpeg
+image: /assets/images/pexels-photo-1552252.jpg
 permalink: /contact/
 sitemap:
   lastmod: 2018-12-11
 ---
+
 Mijn naam is Winfred van Groningen, specialist op het gebied van sport en voeding en werkzaam als personal trainer. Na een jarenlange sportbeoefening en een carriere in het bedrijfsleven ben ik in 2013 VitaSupport gestart.
 
 ![Personal Trainer Winfred van Groningen]({{ "/assets/images/winfred.jpeg" | relative_url }}){:class="responsive-img" title="Personal Trainer Winfred van Groningen" alt="Personal Training door Winfred van Groningen"}
