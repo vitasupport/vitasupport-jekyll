@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Hardlopen
+subtitle: looptechniek
 permalink: /hardlopen/
 description: >-
   Tussen Rotterdam en Alkmaar kun je een flink stuk hardlopen. En personal

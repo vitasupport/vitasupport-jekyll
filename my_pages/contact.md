@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+subtitle: personal trainer & sport specialist
 description: >-
   Ook al kom je uit Amsterdam, neem contact op met personal trainer Winfred van Groningen om je sneller en doeltreffender naar je victorie te brengen!
 cta: false
