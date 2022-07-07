@@ -5,7 +5,7 @@ backend:
   name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
   branch: master # Branch to update (master by default)
 
-media_folder: "assets/imgages" # Folder where user uploaded files should go
+media_folder: "assets/images" # Folder where user uploaded files should go
 
 publish_mode: editorial_workflow # Enable drafts
 
@@ -19,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Title", name: "page-title", widget: "string", tagname: "h1"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "hidden"}
       - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
@@ -31,7 +31,6 @@ collections: # A list of collections the CMS should be able to edit
         media_library:
           config:
             multiple: true
-      - {label: "Permalink", name: "permalink", widget: "string"}
       - label: "Sitemap"
         name: "sitemap"
         widget: "object"
@@ -46,7 +45,7 @@ collections: # A list of collections the CMS should be able to edit
     create: false
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "tariff-title", widget: "string", tagname: "h1"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Number of sessions", name: "number_sessions", widget: "number", valueType: int}
       - {label: "Frequency", name: "frequency", widget: "number", valueType: int}
       - {label: "Price", name: "price", widget: "number", valueType: int}
@@ -58,6 +57,6 @@ collections: # A list of collections the CMS should be able to edit
     create: false
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "topictitle", widget: "string", tagname: "h1"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Icon", name: "icon", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", required: false}
