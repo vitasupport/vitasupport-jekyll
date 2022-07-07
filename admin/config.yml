@@ -19,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Title", name: "page-title", widget: "string", tagname: "h1"}
       - {label: "Permalink", name: "permalink", widget: "hidden"}
       - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
@@ -46,12 +46,11 @@ collections: # A list of collections the CMS should be able to edit
     create: false
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Title", name: "tariff-title", widget: "string", tagname: "h1"}
       - {label: "Number of sessions", name: "number_sessions", widget: "number", valueType: int}
       - {label: "Frequency", name: "frequency", widget: "number", valueType: int}
       - {label: "Price", name: "price", widget: "number", valueType: int}
       - {label: "URL ID", name: "url_id", widget: "number", valueType: int}
-
   - name: "topic"
     label: "Topic"
     folder: "my_collections/_topics"
@@ -59,6 +58,6 @@ collections: # A list of collections the CMS should be able to edit
     create: false
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Title", name: "topictitle", widget: "string", tagname: "h1"}
       - {label: "Icon", name: "icon", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", required: false}
